@@ -11,7 +11,7 @@
 			
 			<h1 class="text-3xl font-bold pt-8 lg:pt-0">{{ getUser.name }}</h1>
 			<div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-teal-500 opacity-25"></div>
-			<p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"><img class="mr-3" src="https://cdn-icons-png.flaticon.com/128/888/888853.png" width="30" height="30">Website Builder</p>
+			<p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"><img class="mr-3" src="https://cdn-icons-png.flaticon.com/128/888/888853.png" width="30" height="30">{{ getUser.email }}</p>
 			<p class="pt-2 text-black-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start font-semibold" v-for="get in address.data"><img class="mr-3" src="https://img.icons8.com/officel/30/000000/worldwide-location.png"> <a href="https://www.google.co.id/maps/place/Bandung,+Kota+Bandung,+Jawa+Barat/@-6.903272,107.5607548,12z/data=!3m1!4b1!4m6!3m5!1s0x2e68e6398252477f:0x146a1f93d3e815b2!8m2!3d-6.9174639!4d107.6191228!16zL20vMDF6bGw4?hl=id&entry=ttu">
         {{ get.address }},
         {{ get.city }}, {{ get.state }}, {{ get.postal_code }}
