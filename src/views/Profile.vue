@@ -18,11 +18,7 @@
       </a></p>
 		
     
-			<div class="pt-12 pb-8">
-				<button class="bg-teal-700 hover:bg-blue-800 hover:text-white text-black font-bold py-2 px-4 rounded-full">
-				  Get In Touch
-				</button> 
-			</div>
+			
 
 			<div class="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
         
